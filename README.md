@@ -1,6 +1,6 @@
 # Wallet Manager
 
-Wallet Manager ofr YOU
+Wallet Manager for YOU
 
 ## Getting Started
 
