@@ -1,17 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:managemoneyapp/constants.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
-class AppBar  extends StatefulWidget {
-  AppBar ({Key key}) : super(key: key);
-
-  @override
-  _AppBar State createState() => _AppBar State();
-}
-
-class _AppBar extends State<AppBar > {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-    );
-  }
+AppBar buildAppBar() {
+  return AppBar(
+    elevation: 0,
+    leading: IconButton(
+      icon: SvgPicture.asset("assets/icons/menu.svg"),
+      onPressed: () {},
+    ),
+  );
 }

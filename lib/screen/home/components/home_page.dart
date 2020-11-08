@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+import 'package:managemoneyapp/screen/appbar/components/app_bar.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -8,14 +8,4 @@ class HomePage extends StatelessWidget {
       appBar: buildAppBar(),
     );
   }
-}
-
-AppBar buildAppBar() {
-  return AppBar(
-    elevation: 0,
-    leading: IconButton(
-      icon: SvgPicture.asset("assets/icons/menu.svg"),
-      onPressed: () {},
-    ),
-  );
 }
